@@ -1,0 +1,6 @@
+entity_id,business_name,business_address,country
+SAMPLE_001,Amazon,410 Terry Ave N Seattle WA,US
+SAMPLE_002,Apple Inc,One Apple Park Way Cupertino CA,US
+SAMPLE_003,Microsoft Corporation,One Microsoft Way Redmond WA,US
+SAMPLE_004,Google LLC,1600 Amphitheatre Parkway Mountain View CA,US
+SAMPLE_005,Meta Platforms,1 Hacker Way Menlo Park CA,US
