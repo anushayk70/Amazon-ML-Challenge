@@ -1,0 +1,77 @@
+# =========================
+# DATA FILES
+# =========================
+
+data/raw/*
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# MODEL FILES
+# =========================
+
+*.pkl
+*.joblib
+*.h5
+*.model
+
+outputs/models/*
+
+# =========================
+# PREDICTIONS / SUBMISSIONS
+# =========================
+
+outputs/predictions/*
+outputs/submissions/*
+
+# =========================
+# PARQUET / LARGE FILES
+# =========================
+
+*.parquet
+*.feather
+
+# =========================
+# PYTHON CACHE
+# =========================
+
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# JUPYTER
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# COLAB
+# =========================
+
+/content/
+
+# =========================
+# OPERATING SYSTEM FILES
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# ENVIRONMENT FILES
+# =========================
+
+.env
+venv/
+.venv/
+env/
+
+# =========================
+# LOG FILES
+# =========================
+
+*.log
